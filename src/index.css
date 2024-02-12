@@ -476,13 +476,23 @@ main article {
 
 .charts {
   display: grid;
-  justify-content: center;
   padding: 1rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .chart1 {
   height: 700px;
 }
+
+.pie-chart {
+  position: relative;
+  width: 50%;
+}
+
+.donut-chart {
+  
+}
+
 @media screen and (min-width: 768px) {
   main article {
       margin: 10px;
