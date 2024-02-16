@@ -14,7 +14,7 @@ app.get('/budget', (req, res) => {
     res.json({
         myBudget: [
             {
-                title: 'Eat Out',
+                title: 'Dining Out',
                 budget: 25
             },
             {
@@ -22,7 +22,7 @@ app.get('/budget', (req, res) => {
                 budget: 375
             },
             {
-                title: 'Grocery',
+                title: 'Groceries',
                 budget: 110
             },
             {

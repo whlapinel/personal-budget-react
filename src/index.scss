@@ -395,7 +395,7 @@ nav ul li a:hover  {
 div.hero {
   height: 350px;
   background-color: #b4c6f0;
-  background-image: url('/public/bg.png');
+  background-image: url('./bg.png');
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -476,22 +476,15 @@ main article {
 
 .charts {
   display: grid;
-  padding: 1rem;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.chart1 {
-  height: 700px;
+  justify-items: center;
 }
 
 .pie-chart {
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
-.donut-chart {
-  
-}
 
 @media screen and (min-width: 768px) {
   main article {
